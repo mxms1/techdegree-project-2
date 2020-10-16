@@ -41,8 +41,10 @@ header{
 
 *{
 font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
 
 }
+
 .main-nav a {
   text-decoration: none;
   font-size: .95em;
@@ -57,25 +59,27 @@ list-style-type: none;
 font-weight: bold;
 text-align: center;
 }
+.main-nav{
+  padding-left: -20px;
+}
+figure {
+	margin: 0;
+	line-height: 0;
+}
 
+figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1em;
+	background: rgba(19,43,102, .85);
+}
 
  @media (min-width:600px){ /*actually 320 */
-  .main-nav{
-    float: right;
-  display: inline-block;
-  }
+  .main-nav,
   .main-nav li{
     display: inline-block;
 
   }
-
-
-
-  .main-nav a {
-  	text-align: center;
-  	display: block;
-  	
-  }
-
 
 }
