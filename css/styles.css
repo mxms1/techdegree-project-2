@@ -4,14 +4,7 @@ max-width: 96%;
 }
 header{
   padding-left: calc(50% - 82px);
-  padding-top: 20px;
-}
-
-figure{
-
-  text-align: center;
-}
-
+  padding-top: 20px;}
 
 .clearfix::after {
 		content: " ";
@@ -91,7 +84,6 @@ text-align: center;
   padding: 8px;
 }
 
-
  @media (min-width:768px){
   .main-nav,
   .main-nav li{
@@ -130,7 +122,7 @@ padding-bottom: 30px;
 }
 
 .main-nav{
-margin-left: -40px
+margin-left: -80px
 
 }
 
@@ -138,7 +130,17 @@ margin-left: -40px
 float:right;
 margin-right: 20px;
 
+
 }
+.backtotop a{
+  text-decoration: none;}
+  a:visited {
+  color: black;
+}
+a:hover{
+  color: pink;
+}
+
 
 .name{
 float: left;
@@ -179,6 +181,10 @@ padding: 5px;
     width: 50%;
 
 }
+.content2 li{
+    float: left;
+    width: 50%;
+}
 
 
 .left{
@@ -205,10 +211,12 @@ padding: 5px;
   .content li{
       float: left;
       width: 33%;
+}
+.content2 li{
+    float: left;
+    width: 50%;
+}
 
-
-
-  }
   .article{
     padding-left: 0px;
     padding-right: 0px;
@@ -219,6 +227,22 @@ padding: 5px;
     padding-left: 10px;
 
   }
+  .profiledesc{font-size: 23px;}
 
 
 }
+.helicopter,
+.rowing{
+max-width: 40%;
+
+}
+.titleskills,
+.content2{text-align: center;}
+
+.titleskills{
+  padding-top: 50px;
+
+}
+
+.profiledesc{background-color: lightblue;
+margin-top: 7px;}
