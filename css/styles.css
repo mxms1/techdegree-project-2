@@ -246,3 +246,12 @@ max-width: 40%;
 
 .profiledesc{background-color: lightblue;
 margin-top: 7px;}
+
+
+.spaceout,
+.para1,
+.name{
+
+  text-align: center;
+
+}
